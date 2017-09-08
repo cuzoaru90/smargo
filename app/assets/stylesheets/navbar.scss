@@ -1,0 +1,87 @@
+.navbar{
+  background-color: rgb(11, 56, 92);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 9999;
+  display: block;
+  margin: 0;
+  width: 100%;
+  min-width: 1024px;
+  height: 50px;
+  color: #fbfbfb;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  font-weight: lighter;
+}
+
+.nav-content{
+  margin: 0 auto;
+  max-width: 980px;
+  padding: 0 22px;
+  position: relative;
+  z-index: 2;
+  height:inherit;
+}
+
+.smargo:before{
+  content: 'smar';
+  color: #FFF;
+}
+
+.smargo:after{
+  content: 'go';
+  color: #FDB05D;
+}
+
+.nav-list{
+  font-size: 15px;
+  cursor: default;
+  margin: 0 -10px;
+  width: auto;
+  height: inherit;
+}
+
+// .right{
+//   left: 45%;
+// }
+
+.nav-container{
+  display: table-cell;
+  position: relative;
+  left: 550px;
+  height: inherit;
+  z-index: 1;
+  vertical-align: middle;
+  line-height: inherit;
+}
+
+.nav-item{
+  display: table-cell;
+  position: relative;
+  height: inherit;
+  z-index: 1;
+  vertical-align: middle;
+  padding: 0px 50px 0px 50px;
+  line-height: inherit;
+}
+
+.nav-item:hover{
+  background-color: #FDB05D;
+  transition: 0.3s;
+
+}
+
+.smargo{
+  font-family: ArialRoundedMTBold;
+  letter-spacing: normal;
+  font-size: 25px;
+  display: table-cell;
+  position: relative;
+  height: inherit;
+  z-index: 1;
+  vertical-align: middle;
+  padding: 0px 50px 0px 50px;
+  line-height: inherit;
+}

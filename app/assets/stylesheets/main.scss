@@ -1,0 +1,73 @@
+.main{
+  height: 100%;
+}
+
+.entry{
+  height:100%;
+}
+
+.body{
+  position: relative;
+}
+
+.segment{
+  width:100%;
+  border-bottom: 1px solid #ddd;
+  height:500px;
+}
+
+.smargo-logo{
+  background-image: url("smargo_logo.png");
+}
+
+.header{
+  position: relative;
+  top: 25%;
+}
+
+.main-button{
+  padding: 12px;
+  border-radius: 5px;
+  color:white;
+  font-size: 20px;
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #FDB05D;
+}
+
+.main-button:hover{
+  background-color: #fa982f;
+  transition: 0.5s;
+}
+
+.learn-more{
+  margin: 0px 150px 0px 150px;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.s1{
+  background-color: #fff;
+  color: #333;
+  font-family: ArialRoundedMTBold;
+  text-align: center;
+
+        h1{
+          font-size: 60px;
+        }
+
+        h1:before{
+          content: 'smar';
+        }
+
+        h1:after{
+          content:'go';
+          color: #FDB05D;
+        }
+
+        h2{
+          font-family: PingFangHK-Regular;
+          font-size: 20px;
+        }
+}

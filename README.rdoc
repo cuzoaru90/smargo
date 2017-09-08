@@ -1,0 +1,11 @@
+To launch this app locally:
+
+	> npm install
+	
+	> rails s
+	
+	This should deploy the app to http://localhost:3000
+	
+Requirements:
+	node
+	ruby/rails
